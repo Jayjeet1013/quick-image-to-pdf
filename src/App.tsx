@@ -21,6 +21,10 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route
+            path="/about"
+            element={<AboutPage />}
+          />
+          <Route
             path="/image-to-pdf.jaykay.software/about"
             element={<AboutPage />}
           />
