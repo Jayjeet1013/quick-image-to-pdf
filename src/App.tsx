@@ -20,10 +20,22 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/privacy" element={<PrivacyPage />} />
-          <Route path="/features" element={<FeaturesPage />} />
-          <Route path="/blog" element={<BlogPostPage />} />
+          <Route
+            path="image-to-pdf.jaykay.software/about"
+            element={<AboutPage />}
+          />
+          <Route
+            path="image-to-pdf.jaykay.software/privacy"
+            element={<PrivacyPage />}
+          />
+          <Route
+            path="image-to-pdf.jaykay.software/features"
+            element={<FeaturesPage />}
+          />
+          <Route
+            path="image-to-pdf.jaykay.software/blog"
+            element={<BlogPostPage />}
+          />
 
           <Route path="*" element={<NotFound />} />
         </Routes>

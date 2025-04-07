@@ -205,14 +205,13 @@ const Index: React.FC = () => {
             </div>
           </section>
         </div>
-        <script
-          async
-          data-cfasync="false"
-          src="//pl26319174.effectiveratecpm.com/d5ba697c09e6886e1f7e98f4c8cab99a/invoke.js"
-        ></script>
-        <div id="container-d5ba697c09e6886e1f7e98f4c8cab99a"></div>
       </main>
-
+      <script
+        type="text/javascript"
+        data-cfasync="false"
+        src="//pl26319174.profitableratecpm.com/d5ba697c09e6886e1f7e98f4c8cab99a/invoke.js"
+      ></script>
+      <div id="container-d5ba697c09e6886e1f7e98f4c8cab99a"></div>
       <footer className="bg-white border-t px-4 py-6">
         <div className="container max-w-5xl mx-auto text-center text-gray-500 text-sm">
           <p>
