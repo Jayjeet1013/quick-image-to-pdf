@@ -1,6 +1,9 @@
 import React from "react";
 import {Image, FileText } from "lucide-react";
 import PDFConverter from "@/components/PDFConverter";
+import BlogPostPage from "./blog/blog/how-to-convert-images-to-pdf";
+import AboutPage from "./about";
+import PrivacyPage from "./privacy";
 
 const Index: React.FC = () => {
   return (
@@ -23,6 +26,23 @@ const Index: React.FC = () => {
               <Github className="h-5 w-5" />
               <span className="hidden sm:inline">View on GitHub</span>
             </a> */}
+            <div>
+              <a
+                href="/blog"
+                className="text-gray-500 hover:text-gray-700 text-sm"
+              >
+                Blog
+              </a>
+              <a href="/about" className="ml-4 text-gray-500 hover:text-gray-700 text-sm">
+                About
+              </a>
+              <a
+                href="/privacy"
+                className="ml-4 text-gray-500 hover:text-gray-700 text-sm"
+              >
+                Privacy
+              </a>
+            </div>
           </div>
         </div>
       </header>
