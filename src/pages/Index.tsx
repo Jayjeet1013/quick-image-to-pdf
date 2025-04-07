@@ -15,7 +15,7 @@ const Index: React.FC = () => {
                 Quick Image to PDF
               </h1>
             </div>
-            <a
+            {/* <a
               href="https://github.com"
               target="_blank"
               rel="noreferrer"
@@ -23,7 +23,7 @@ const Index: React.FC = () => {
             >
               <Github className="h-5 w-5" />
               <span className="hidden sm:inline">View on GitHub</span>
-            </a>
+            </a> */}
           </div>
         </div>
       </header>
