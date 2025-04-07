@@ -21,19 +21,19 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route
-            path="image-to-pdf.jaykay.software/about"
+            path="/image-to-pdf.jaykay.software/about"
             element={<AboutPage />}
           />
           <Route
-            path="image-to-pdf.jaykay.software/privacy"
+            path="/image-to-pdf.jaykay.software/privacy"
             element={<PrivacyPage />}
           />
           <Route
-            path="image-to-pdf.jaykay.software/features"
+            path="/image-to-pdf.jaykay.software/features"
             element={<FeaturesPage />}
           />
           <Route
-            path="image-to-pdf.jaykay.software/blog"
+            path="/image-to-pdf.jaykay.software/blog"
             element={<BlogPostPage />}
           />
 
