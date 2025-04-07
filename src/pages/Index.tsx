@@ -95,6 +95,7 @@ const Index: React.FC = () => {
       </main>
       <div>
         <script
+          async
           data-cfasync="false"
           src="//pl26319174.effectiveratecpm.com/d5ba697c09e6886e1f7e98f4c8cab99a/invoke.js"
         ></script>
