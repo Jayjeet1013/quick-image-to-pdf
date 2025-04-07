@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Github, Image, FileText } from "lucide-react";
 import PDFConverter from "@/components/PDFConverter";
@@ -35,7 +34,8 @@ const Index: React.FC = () => {
               Convert Images to PDF in Seconds
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Upload your images, arrange them in the desired order, and download them as a single PDF file. No registration required.
+              Upload your images, arrange them in the desired order, and
+              download them as a single PDF file. No registration required.
             </p>
           </div>
 
@@ -47,12 +47,26 @@ const Index: React.FC = () => {
                 <Image className="h-6 w-6 text-pdf-primary" />
               </div>
               <h3 className="text-lg font-medium mb-2">Simple Upload</h3>
-              <p className="text-gray-600 text-sm">Drag and drop your images or browse to select multiple files at once.</p>
+              <p className="text-gray-600 text-sm">
+                Drag and drop your images or browse to select multiple files at
+                once.
+              </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm border flex flex-col items-center text-center">
               <div className="h-12 w-12 bg-pdf-secondary rounded-full flex items-center justify-center mb-4">
-                <svg className="h-6 w-6 text-pdf-primary" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <svg
+                  className="h-6 w-6 text-pdf-primary"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
                   <rect x="4" y="3" width="16" height="18" rx="2" />
                   <path d="M8 17h8" />
                   <path d="M8 13h6" />
@@ -60,7 +74,10 @@ const Index: React.FC = () => {
                 </svg>
               </div>
               <h3 className="text-lg font-medium mb-2">Arrange Your Pages</h3>
-              <p className="text-gray-600 text-sm">Preview and reorder your images before conversion for the perfect PDF output.</p>
+              <p className="text-gray-600 text-sm">
+                Preview and reorder your images before conversion for the
+                perfect PDF output.
+              </p>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-sm border flex flex-col items-center text-center">
@@ -68,16 +85,31 @@ const Index: React.FC = () => {
                 <FileText className="h-6 w-6 text-pdf-primary" />
               </div>
               <h3 className="text-lg font-medium mb-2">Instant Conversion</h3>
-              <p className="text-gray-600 text-sm">Convert and download your PDF file with a single click. Fast and efficient.</p>
+              <p className="text-gray-600 text-sm">
+                Convert and download your PDF file with a single click. Fast and
+                efficient.
+              </p>
             </div>
           </div>
         </div>
       </main>
-
+      <div>
+        <script
+          data-cfasync="false"
+          src="//pl26319174.effectiveratecpm.com/d5ba697c09e6886e1f7e98f4c8cab99a/invoke.js"
+        ></script>
+        <div id="container-d5ba697c09e6886e1f7e98f4c8cab99a"></div>
+      </div>
       <footer className="bg-white border-t px-4 py-6">
         <div className="container max-w-5xl mx-auto text-center text-gray-500 text-sm">
-          <p>© {new Date().getFullYear()} Quick Image to PDF. All rights reserved.</p>
-          <p className="mt-2">Your files are processed entirely in your browser. We never upload or store your images.</p>
+          <p>
+            © {new Date().getFullYear()} Quick Image to PDF. All rights
+            reserved.
+          </p>
+          <p className="mt-2">
+            Your files are processed entirely in your browser. We never upload
+            or store your images.
+          </p>
         </div>
       </footer>
     </div>
