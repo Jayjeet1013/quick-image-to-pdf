@@ -9,54 +9,7 @@ import Features from "@/components/Features";
 const Index: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
-      <header className="bg-white border-b px-4 py-4 shadow-sm">
-        <div className="container max-w-5xl mx-auto">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <Image className="h-8 w-8 text-pdf-primary" />
-              <h1 className="text-xl font-bold text-gray-800">
-                Quick Image to PDF
-              </h1>
-            </div>
-            {/* <a
-              href="https://github.com"
-              target="_blank"
-              rel="noreferrer"
-              className="flex items-center gap-2 text-gray-500 hover:text-gray-700 text-sm"
-            >
-              <Github className="h-5 w-5" />
-              <span className="hidden sm:inline">View on GitHub</span>
-            </a> */}
-            <div>
-              <a
-                href="/blog"
-                className="text-gray-500 hover:text-gray-700 text-sm"
-              >
-                Blog
-              </a>
-
-              <a
-                href="/about"
-                className="ml-4 text-gray-500 hover:text-gray-700 text-sm"
-              >
-                About
-              </a>
-              <a
-                href="/features"
-                className="ml-4 text-gray-500 hover:text-gray-700 text-sm"
-              >
-                Features
-              </a>
-              <a
-                href="/privacy"
-                className="ml-4 text-gray-500 hover:text-gray-700 text-sm"
-              >
-                Privacy
-              </a>
-            </div>
-          </div>
-        </div>
-      </header>
+    
 
       <main className="flex-1 container px-4 py-8">
         <div className="max-w-5xl mx-auto">
@@ -172,18 +125,7 @@ const Index: React.FC = () => {
         </div>
       </main>
 
-      <footer className="bg-white border-t px-4 py-6">
-        <div className="container max-w-5xl mx-auto text-center text-gray-500 text-sm">
-          <p>
-            © {new Date().getFullYear()} Quick Image to PDF. All rights
-            reserved.
-          </p>
-          <p className="mt-2">
-            Your files are processed entirely in your browser. We never upload
-            or store your images.
-          </p>
-        </div>
-      </footer>
+     
     </div>
   );
 };

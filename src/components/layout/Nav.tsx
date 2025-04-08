@@ -7,12 +7,12 @@ const Nav = () => {
       <header className="bg-white border-b px-4 py-4 shadow-sm">
         <div className="container max-w-5xl mx-auto">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2">
+            <a href='/' className="flex items-center gap-2">
               <Image className="h-8 w-8 text-pdf-primary" />
               <h1 className="text-xl font-bold text-gray-800">
                 Quick Image to PDF
               </h1>
-            </div>
+            </a>
             {/* <a
               href="https://github.com"
               target="_blank"

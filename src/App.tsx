@@ -10,6 +10,7 @@ import AboutPage from "./pages/about";
 import PrivacyPage from "./pages/privacy";
 import FeaturesPage from "./pages/features";
 import BlogPostPage from "./pages/blog/blog/how-to-convert-images-to-pdf";
+import Nav from "./components/layout/Nav";
 
 const queryClient = new QueryClient();
 
@@ -19,7 +20,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-  
+  <Nav />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<AboutPage />} />
