@@ -1,4 +1,5 @@
 import React from "react";
+import AdComponent from "./AddComponent";
 
 const Features = () => {
   return (
@@ -46,7 +47,8 @@ const Features = () => {
           </div>
         </div>
       </section>
-    
+    <AdComponent />
+      
     </div>
   );
 };
