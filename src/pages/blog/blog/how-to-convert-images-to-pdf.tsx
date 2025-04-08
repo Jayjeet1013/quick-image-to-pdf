@@ -122,14 +122,7 @@ const BlogPostPage: React.FC = () => {
         </div>
       </main>
 
-      <footer className="bg-white border-t px-4 py-6">
-        <div className="container max-w-5xl mx-auto text-center text-gray-500 text-sm">
-          <p>
-            © {new Date().getFullYear()} Quick Image to PDF. All rights
-            reserved.
-          </p>
-        </div>
-      </footer>
+    
     </div>
   );
 };
