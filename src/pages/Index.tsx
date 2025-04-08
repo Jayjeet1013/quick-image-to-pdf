@@ -115,7 +115,7 @@ const Index: React.FC = () => {
               </p>
             </div>
           </div>
-        <Features />
+          <Features />
           <section className="mt-16 bg-gray-50 py-12 px-4">
             <div className="max-w-5xl mx-auto">
               <h2 className="text-2xl font-bold mb-6 text-center">
@@ -162,7 +162,6 @@ const Index: React.FC = () => {
               </div>
             </div>
           </section>
-
         </div>
       </main>
 
@@ -178,6 +177,12 @@ const Index: React.FC = () => {
           </p>
         </div>
       </footer>
+      <script
+        async
+        data-cfasync="false"
+        src="//pl26319174.profitableratecpm.com/d5ba697c09e6886e1f7e98f4c8cab99a/invoke.js"
+      ></script>
+      <div id="container-d5ba697c09e6886e1f7e98f4c8cab99a"></div>
     </div>
   );
 };
