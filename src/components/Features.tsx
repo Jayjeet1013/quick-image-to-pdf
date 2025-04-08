@@ -45,13 +45,8 @@ const Features = () => {
             </p>
           </div>
         </div>
-        <script
-          async
-          data-cfasync="false"
-          src="//pl26319174.profitableratecpm.com/d5ba697c09e6886e1f7e98f4c8cab99a/invoke.js"
-        ></script>
-        <div id="container-d5ba697c09e6886e1f7e98f4c8cab99a"></div>
       </section>
+    
     </div>
   );
 };

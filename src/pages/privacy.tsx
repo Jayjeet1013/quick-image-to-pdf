@@ -13,18 +13,54 @@ const PrivacyPage: React.FC = () => {
         />
       </head>
 
-      <header className="bg-white border-b px-4 py-4 shadow-sm">
-        <div className="container max-w-5xl mx-auto">
-          <div className="flex items-center justify-between">
-            <Link href="/" className="flex items-center gap-2">
-              <Image className="h-8 w-8 text-pdf-primary" />
-              <h1 className="text-xl font-bold text-gray-800">
-                Quick Image to PDF
-              </h1>
-            </Link>
-          </div>
-        </div>
-      </header>
+       <header className="bg-white border-b px-4 py-4 shadow-sm">
+             <div className="container max-w-5xl mx-auto">
+               <div className="flex items-center justify-between">
+                 <div className="flex items-center gap-2">
+                   <Image className="h-8 w-8 text-pdf-primary" />
+                   <h1 className="text-xl font-bold text-gray-800">
+                     Quick Image to PDF
+                   </h1>
+                 </div>
+                 {/* <a
+                   href="https://github.com"
+                   target="_blank"
+                   rel="noreferrer"
+                   className="flex items-center gap-2 text-gray-500 hover:text-gray-700 text-sm"
+                 >
+                   <Github className="h-5 w-5" />
+                   <span className="hidden sm:inline">View on GitHub</span>
+                 </a> */}
+                 <div>
+                   <a
+                     href="/blog"
+                     className="text-gray-500 hover:text-gray-700 text-sm"
+                   >
+                     Blog
+                   </a>
+     
+                   <a
+                     href="/about"
+                     className="ml-4 text-gray-500 hover:text-gray-700 text-sm"
+                   >
+                     About
+                   </a>
+                   <a
+                     href="/features"
+                     className="ml-4 text-gray-500 hover:text-gray-700 text-sm"
+                   >
+                     Features
+                   </a>
+                   <a
+                     href="/privacy"
+                     className="ml-4 text-gray-500 hover:text-gray-700 text-sm"
+                   >
+                     Privacy
+                   </a>
+                 </div>
+               </div>
+             </div>
+           </header>
 
       <main className="flex-1 container px-4 py-8">
         <div className="max-w-3xl mx-auto">
@@ -94,12 +130,12 @@ const PrivacyPage: React.FC = () => {
           </div>
 
           <div className="mt-12 text-center">
-            <Link
+            <a
               href="/"
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-pdf-primary hover:bg-pdf-primary-dark"
             >
               Back to Converter
-            </Link>
+            </a>
           </div>
         </div>
       </main>

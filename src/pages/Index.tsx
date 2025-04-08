@@ -34,12 +34,18 @@ const Index: React.FC = () => {
               >
                 Blog
               </a>
-              
+
               <a
                 href="/about"
                 className="ml-4 text-gray-500 hover:text-gray-700 text-sm"
               >
                 About
+              </a>
+              <a
+                href="/features"
+                className="ml-4 text-gray-500 hover:text-gray-700 text-sm"
+              >
+                Features
               </a>
               <a
                 href="/privacy"
@@ -178,12 +184,6 @@ const Index: React.FC = () => {
           </p>
         </div>
       </footer>
-      <script
-        async
-        data-cfasync="false"
-        src="//pl26319174.profitableratecpm.com/d5ba697c09e6886e1f7e98f4c8cab99a/invoke.js"
-      ></script>
-      <div id="container-d5ba697c09e6886e1f7e98f4c8cab99a"></div>
     </div>
   );
 };
